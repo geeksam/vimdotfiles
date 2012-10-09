@@ -1,0 +1,8 @@
+set t_Co=256 " 256 colors
+set background=dark
+colorscheme herald
+imap hh =>
+if has("gui_running")
+  set guioptions=-t
+  set guifont=Inconsolata:h20
+endif
